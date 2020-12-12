@@ -25,3 +25,4 @@ def add_events(events):
 
         if date_time_event_ts not in EVENTS_STORAGE.EVENTS_STORAGE.keys():
             EVENTS_STORAGE.EVENTS_STORAGE[date_time_event_ts] = {"msg": text_event, 'isPush': False}
+            oiyopgououo
