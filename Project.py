@@ -41,7 +41,7 @@ while (True):
         if int(timestamp) < timestamp_now and EVENTS_STORAGE.EVENTS_STORAGE[timestamp]["isPush"] == False:
             push_msg_all_users(USERS, EVENTS_STORAGE.EVENTS_STORAGE[timestamp]["msg"])
             EVENTS_STORAGE.EVENTS_STORAGE[timestamp]["isPush"] = True
-
+print(Get_events.get_events())
 
 # 1) hardcode нотификаций в вк +
 # 2) hardcode получение из гугл календаря +
